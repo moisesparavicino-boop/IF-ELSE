@@ -1,0 +1,21 @@
+using Unity.VisualScripting;
+using UnityEngine;
+
+public class NewMonoBehaviourScript2 : MonoBehaviour
+{
+    bool Masmorra;
+    int level;
+    void Start()
+    {
+        if (level >= 10)
+            Debug.Log("mostrar accesoPermitido");
+        !  (level >= 10)
+            Debug.Log("mostrar accesoDenegado && seguir en entrenando");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
