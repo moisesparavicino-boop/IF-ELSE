@@ -1,0 +1,23 @@
+using UnityEngine;
+
+public class NewMonoBehaviourScript1 : MonoBehaviour
+{
+    int score;
+    void Start()
+    {
+        if (score < 100)
+            Debug.Log(" mostrar Novato");
+        if (score < 300)
+            Debug.Log(" mostrar Intermedio");
+        if (score < 600)
+            Debug.Log(" mostrar Avanzado");
+        if (score >= 100)
+            Debug.Log(" mostrar Elite");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
