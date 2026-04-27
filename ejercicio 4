@@ -1,0 +1,23 @@
+using UnityEngine;
+
+public class NewMonoBehaviourScript3 : MonoBehaviour
+{
+    int speed;
+    void Start()
+    {
+        if (speed == 0)
+            Debug.Log("mostrar Detenido");
+        if (speed <= 10)
+            Debug.Log("mostrar Caminando");
+        if (speed <= 30)
+            Debug.Log("mostrar Corriendo");
+        if (speed == 80)
+            Debug.Log("mostrar Spring");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
