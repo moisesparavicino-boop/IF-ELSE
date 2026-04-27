@@ -6,10 +6,17 @@ public class NewMonoBehaviourScript3 : MonoBehaviour
     void Start()
     {
         if (speed == 0)
+            Debug.Log("detenerse");
+        else
             Debug.Log("mostrar Detenido");
         if (speed <= 10)
+            Debug.Log("caminar");
+        else    
             Debug.Log("mostrar Caminando");
-        if (speed <= 30)
+        if
+            (speed <= 30)
+            Debug.Log("correr");
+        else
             Debug.Log("mostrar Corriendo");
         if (speed == 80)
             Debug.Log("mostrar Spring");
