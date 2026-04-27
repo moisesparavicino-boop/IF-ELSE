@@ -1,0 +1,22 @@
+using UnityEngine;
+
+public class NewMonoBehaviourScript : MonoBehaviour
+{
+    int hasLife;
+    
+    void Start()
+    {
+        if (hasLife <= 30)
+            Debug.Log("mostrar herido");
+        if (hasLife <= 0)
+            Debug.Log(" mostrar muerto");
+        if (hasLife > 30)
+            Debug.Log("mostrar saludable");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
