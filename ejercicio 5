@@ -5,23 +5,24 @@ public class NewMonoBehaviourScript4 : MonoBehaviour
     int temperature;
     void Start()
     {
-        if (temperature <= 0)
-            Debug.Log("nevar");
-        else if ((temperature <= 0))
-            Debug.Log("mostrar nieve");
-        if (temperature <= 10)
-            Debug.Log("llover");
-        else if ((temperature <= 10))
-            Debug.Log("mostrar lluvia");
-        if (temperature >= 20)
-            Debug.Log("nublarse");
-        else if ((temperature >= 20))
-            Debug.Log("mostrar nublado");
-        if (temperature >= 30)
-            Debug.Log("solearse");
-        else if ((temperature >= 30))
-            Debug.Log("mostrar soleado");
+          if (temperature > 19)
+        {
+            Debug.Log("soleado");
+        }
+        else if (temperature >= 10)
+        {
+            Debug.Log("nublado");
+        }
+        else if (temperature > -10)
+        {
+            Debug.Log("lluvia");
+        }
+        else if (temperature <= -10)
+        {
+            Debug.Log("nieve");
+        }
     }
+
 
     // Update is called once per frame
     void Update()
