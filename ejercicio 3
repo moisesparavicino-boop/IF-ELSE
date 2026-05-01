@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class NewMonoBehaviourScript2 : MonoBehaviour
 {
-    bool Masmorra;
+   
     int level;
     void Start()
     {
