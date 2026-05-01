@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
-    int Life;
+    int Life = 50;
     
     void Start()
     {
