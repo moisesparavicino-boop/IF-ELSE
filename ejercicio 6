@@ -1,1 +1,24 @@
+using UnityEngine;
 
+public class ejercicio6 : MonoBehaviour
+{
+     bool tienearma = true;
+     bool tienemunicion = true;
+     bool noestaaturdido = true;
+    void Start()
+    {
+        if (tienearma && tienemunicion && noestaaturdido)
+        {
+            Debug.Log("mostrar puede atacar");
+        }
+        else
+        {
+            Debug.Log("mostrar no puede atacar");
+        }
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
