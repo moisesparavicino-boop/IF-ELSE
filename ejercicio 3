@@ -9,10 +9,11 @@ public class NewMonoBehaviourScript2 : MonoBehaviour
     {
         if (level >= 10)
             Debug.Log("mostrar accesoPermitido");
-        !  (level >= 10)
-            Debug.Log("mostrar accesoDenegado && seguir en entrenando");
+         else
+        {
+            Debug.Log("mostrar acceso denegado + seguir entrenando");
+        }
     }
-
     // Update is called once per frame
     void Update()
     {
