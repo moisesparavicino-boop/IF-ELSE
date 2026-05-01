@@ -4,7 +4,7 @@ using UnityEngine;
 public class NewMonoBehaviourScript2 : MonoBehaviour
 {
    
-    int level;
+    int level= 30;
     void Start()
     {
         if (level >= 10)
