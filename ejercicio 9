@@ -1,0 +1,25 @@
+using UnityEngine;
+
+public class ejercicio9 : MonoBehaviour
+{
+     int mana = 50;
+     int stamina = 70;
+     bool enemigocerca = true;
+    void Start()
+    {
+        if (mana > 20 && stamina > 50 && enemigocerca)
+        {
+            Debug.Log("mostrar puedes lanzar habilidad especial");
+        }
+        else
+        {
+            Debug.Log("mostrar no puedes lanzar habilidad especial");
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
