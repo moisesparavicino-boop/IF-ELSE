@@ -1,0 +1,25 @@
+using UnityEngine;
+
+public class ejercicio7 : MonoBehaviour
+{
+   bool noestamuerto = true;
+   bool tienepocion = true;
+   bool zonasegura = true;
+    void Start()
+    {
+        if ((tienepocion || zonasegura) && noestamuerto)
+        {
+            Debug.Log("mostrar curacion disponible");
+        }
+        else
+        {
+            Debug.Log("mostrar, muerto");
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
