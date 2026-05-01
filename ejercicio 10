@@ -1,0 +1,28 @@
+using UnityEngine;
+
+public class ejercicio10 : MonoBehaviour
+{
+    bool vealjugador = true;
+    bool estacerca = true;
+    void Start()
+    {
+        if(vealjugador && estacerca)
+        {
+            Debug.Log("mostrar atacar");
+        }
+        else if(vealjugador && !estacerca)
+        {
+            Debug.Log(" mostrar perseguir");
+        }
+        else
+        {
+            Debug.Log(" mostrar patrullar");
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
