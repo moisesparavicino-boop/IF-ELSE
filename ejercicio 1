@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
-    int hasLife;
+    int Life;
     
     void Start()
     {
-        if (hasLife <= 30)
+        if (Life >= 30)
             Debug.Log("mostrar herido");
-        if (hasLife <= 0)
+        if (Life <= 0)
             Debug.Log(" mostrar muerto");
-        if (hasLife > 30)
+        if (Life > 30)
             Debug.Log("mostrar saludable");
     }
 
