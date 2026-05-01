@@ -1,0 +1,26 @@
+using UnityEngine;
+
+public class ejercicio8 : MonoBehaviour
+{
+     bool tienellavedorada = true;
+     int level = 30;
+     bool noestaencombate = true;
+
+    void Start()
+    {
+        if ((tienellavedorada || level > 15) && noestaencombate)
+        {
+            Debug.Log("mostrar cofre abierto");
+        }
+        else
+        {
+            Debug.Log("mostrar no puedes abrir el cofre");
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
