@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class NewMonoBehaviourScript1 : MonoBehaviour
 {
-    int score;
+    int score = 800;
     void Start()
     {
         if (score < 100)
